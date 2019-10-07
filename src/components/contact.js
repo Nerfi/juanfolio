@@ -19,7 +19,10 @@ function Contact(){
 
       </div>
 
-      <p className="description">Full-stack DeveloperPD: dont forget to add some description about myself</p>
+      <p className="description" style={{fontFamily: 'Mansalva'}}>Ruby on Rails software developer with a passion for software
+      and clean code, with a huge interest in A.I and machine learning
+
+      </p>
 
 
 
@@ -31,17 +34,35 @@ function Contact(){
 
     <div className="contact-list">
         <List>
+
       <ListItem>
-        <ListItemContent style={{fontSize: '25px', fontFamily:'Pacifico'}}>
+        <ListItemContent style={{fontSize: '20px', fontFamily:'Pacifico'}}>
           <i className="fa fa-phone-square" aria-hidden="true"></i>(+34) 666856901
         </ListItemContent>
       </ListItem>
+
       <ListItem>
-        <ListItemContent icon="person">Aaron Paul</ListItemContent>
+        <ListItemContent style={{fontSize: '25px', fontFamily:'Mansalva'}}>
+          <i className="fa fa-envelope" aria-hidden="true"></i>
+          Juanchuu.jfpc@gmail.com
+        </ListItemContent>
       </ListItem>
+
       <ListItem>
-        <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+        <ListItemContent style={{fontSize: '25px', fontFamily:'Mansalva'}}>
+          <i className="fa fa-skype" aria-hidden="true"></i>
+          juanchuu.jfpc
+        </ListItemContent>
       </ListItem>
+
+       <ListItem>
+        <ListItemContent style={{fontSize: '20px', fontFamily:'Pacifico'}}>
+          <i className="fa fa-linkedin" aria-hidden="true"></i>
+          www.linkedin.com/in/juanparedess/
+        </ListItemContent>
+      </ListItem>
+
+
     </List>
 
 
