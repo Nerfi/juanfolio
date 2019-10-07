@@ -1,7 +1,17 @@
 import React, {Component} from 'react';
+import {Grid, Cell} from 'react-mdl';
+
 function Resume(){
   return(
-    <h1>Resume</h1>
+      <div>
+        <Grid>
+
+        <Cell col={4} left side>left</Cell>
+
+        <Cell col={8} right scene>Right</Cell>
+
+        </Grid>
+      </div>
     );
 }
 
