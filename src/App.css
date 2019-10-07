@@ -74,3 +74,10 @@ margin: auto;
   font-size: 3em;
   padding: 8px;
 }
+ /* Projects cards */
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
