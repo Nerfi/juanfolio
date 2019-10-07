@@ -5,14 +5,15 @@ function Contact(){
   return(
 
     <div className="contact-body">
-    <Grid className="contact-grid">
-    <Cell col={6}>Half of the page</Cell>
-    <Cell col={6}>Half of the page</Cell>
-
-    </Grid>
+      <Grid className="contact-grid">
+      <Cell col={6}>
 
 
 
+      </Cell>
+      <Cell col={6}>Half of the page</Cell>
+
+      </Grid>
     </div>
 
     );
