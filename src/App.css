@@ -105,3 +105,25 @@ margin: auto;
   color: black;
   margin-bottom: 20px;
 }
+
+
+
+
+.description {
+  font-size: 25px;
+  padding-top: 1em;
+  margin: auto;
+  width: 75%;
+  font-family: 'Pacifico', cursive;
+  /* need some more work btw */
+}
+
+
+.contact-grid h2 {
+  font-family: 'Mansalva', cursive;
+}
+
+
+.contact-list i {
+  font-size: 55px;
+}
