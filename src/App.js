@@ -5,6 +5,7 @@ import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Contact from './components/contact';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+import Projects from './components/projects';
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
         </Drawer>
         <Content>
             <div className="page-content" />
-            <Main/>
+
+            <Main />
         </Content>
     </Layout>
 </div>
