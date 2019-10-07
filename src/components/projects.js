@@ -13,7 +13,7 @@ class Projects extends Component{
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
-         <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
+         <Card shadow={5} style={{width: '330px', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F146798%2Fscreenshots%2F2484828%2Freact_illo_800x600.png&f=1&nofb=1) center / cover'}}>React</CardTitle>
         <CardText>React projects, dont forget to write something in here</CardText>
         <CardActions border >
@@ -28,7 +28,7 @@ class Projects extends Component{
        </Card>
 
       {/* Project 2*/}
-         <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
+         <Card shadow={5} style={{width: '330px', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F146798%2Fscreenshots%2F2484828%2Freact_illo_800x600.png&f=1&nofb=1) center / cover'}}>React</CardTitle>
         <CardText>React projects, dont forget to write something in here</CardText>
         <CardActions border >
@@ -44,7 +44,8 @@ class Projects extends Component{
 
      {/* project 3 */ }
 
-     <Card shadow={5} style={{width: '350px', margin: 'auto'}}>
+
+     <Card shadow={5} style={{width: '330px', margin: 'auto'}}>
         <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F146798%2Fscreenshots%2F2484828%2Freact_illo_800x600.png&f=1&nofb=1) center / cover'}}>React</CardTitle>
         <CardText>React projects, dont forget to write something in here</CardText>
         <CardActions border >

@@ -1,8 +1,20 @@
 import React, {Component} from 'react';
+import {Grid, Cell} from 'react-mdl';
 
 function Contact(){
   return(
-    <h1>Contact Page</h1>
+
+    <div className="contact-body">
+    <Grid className="contact-grid">
+    <Cell col={6}>Half of the page</Cell>
+    <Cell col={6}>Half of the page</Cell>
+
+    </Grid>
+
+
+
+    </div>
+
     );
 }
 
