@@ -134,6 +134,7 @@ margin: auto;
 
 /* Resume section */
 .resume-right-col {
-  background: red;
+  background: grey;
   color: white;
+  padding: 2em;
 }
