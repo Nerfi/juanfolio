@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 
+
+
 function LandingPage(){
   return(
     <div style={{with: '100%', margin: 'auto'}}>
@@ -17,11 +19,11 @@ function LandingPage(){
 
       <div className="social-links">
 
-        <a href="" target="_blank">
+        <a href="https://www.linkedin.com/in/juanparedess/" target="_blank">
           <i className="fa fa-linkedin-square" aria-hidden="true"/>
         </a>
 
-        <a href="" target="_blank">
+        <a href="https://github.com/Nerfi" target="_blank">
           <i className="fa fa-github-square" aria-hidden="true"/>
         </a>
 

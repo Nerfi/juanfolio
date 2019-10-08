@@ -133,8 +133,16 @@ margin: auto;
 
 
 /* Resume section */
+
 .resume-right-col {
   background: grey;
   color: white;
   padding: 2em;
+}
+
+
+/* About me section*/
+
+.container {
+  text-align: center;
 }

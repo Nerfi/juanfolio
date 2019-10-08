@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 import Projects from './components/projects';
 
 
+
+
 function App() {
   return (
    <div className="demo-big-content">
@@ -32,7 +34,9 @@ function App() {
             <div className="page-content" />
 
             <Main />
+
         </Content>
+
     </Layout>
 </div>
 
